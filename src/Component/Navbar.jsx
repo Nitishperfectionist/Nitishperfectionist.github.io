@@ -4,7 +4,7 @@ import { ColorModeSwitcher } from '../ColorModeSwitcher'
 import { BiDownload } from 'react-icons/bi';
 import { Link } from "react-scroll";
 import DrawerChakra from '../Pages/DrawerChakra';
-import Resume from "../Essentials/Shiva-Verma-Resume.pdf"
+import Resume from "../Essentials/Nitish-Kumar-Resume.pdf"
 
 
 const Navbar = () => {
@@ -30,8 +30,8 @@ const Navbar = () => {
 
   return (
     <Flex id="nav-menu" bg={'#60a5fa'} w={'100%'} color={'white'} position={'fixed'} top={0} >
-      <Box id="user-detail-name" fontSize={30} fontWeight={700} ml={[3, 10, 10]} cursor={'pointer'} >
-        Shiva Verma
+      <Box id="user-detail-name" fontSize={20} fontWeight={500} ml={[3, 10, 10]} cursor={'pointer'} >
+        Nitish Kumar
       </Box>
       <Spacer />
       <Box my={'auto'} fontSize={20} display={['none', 'none', 'block']} cursor={'pointer'}  >
@@ -45,7 +45,7 @@ const Navbar = () => {
             rel="noreferrer"
             onClick={handleDownload}
             href={Resume}
-            download={"Shiva-Verma-Resume"}
+            download={"Nitish-Kumar-Resume"}
           >RESUME
           </ResumeLink>
         </Button>

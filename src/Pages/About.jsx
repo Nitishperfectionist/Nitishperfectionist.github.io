@@ -1,7 +1,7 @@
 import { Box, Text, Button, Flex, Spacer, Link, useToast } from '@chakra-ui/react'
 import React from 'react'
-import Resume from "../Essentials/Shiva-Verma-Resume.pdf"
-import ShivaPic from "../Essentials/ShivaPic1.png"
+import Resume from "../Essentials/Nitish-Kumar-Resume.pdf"
+import NitishPic from "../Essentials/NitishPic.jpg"
 import { BiDownload } from 'react-icons/bi';
 
 
@@ -21,21 +21,28 @@ const About = () => {
 
       <Box w={'90%'} m={'auto'} >
         <Box textAlign={'center'} >
-          <Text fontSize={30} fontWeight={600} >About</Text>
-          <Text fontWeight={800} color={'gray'} >Know about me?</Text>
+          <Text fontSize={25} fontWeight={600} >About</Text>
+          {/* <Text fontWeight={800} color={'gray'} >Nitish Kumar</Text>
+          <Text fontWeight={800} color={'gray'} >Full Stack Web developer</Text> */}
         </Box>
         <Box>
           <Box>
-            <Text id="user-detail-intro" >I am an aspiring full stack developer and recent graduate of Masai School. I have a passion for developing scalable web applications and learning across the full stack. I am proficient in HTML, CSS, JavaScript, and React, and I have a good command of Node.js, Express, and MongoDB. I am focused on efficient learning and eager to tackle more complex problems.I am a highly motivated and self-driven inBoxidual with a strong work ethic. I am also a team player and I am always willing to help others. I am confident that I have the skills and experience necessary to be successful in a full stack development role.I am eager to learn more about the full stack development process and I am confident that I can make a significant contribution to your team. I am available for full-time employment and I am eager to start working on challenging and rewarding projects.</Text>
+          {/* <Box id="user-detail-intro-box" p={4} border="1px solid #ccc" borderRadius="lg" maxW={['100%', '100%', '25%']}>
+  <Text>
+    I'm a passionate Full Stack Web Developer with expertise in HTML, CSS, JavaScript, React, Redux, MongoDB, and a strong grasp of data structures and algorithms. I take pride in crafting dynamic web applications that blend creativity with technical excellence. As a collaborative team player, I thrive on challenges and am committed to turning innovative ideas into reality. Let's create something extraordinary together.
+  </Text>
+</Box> */}
+
+            <Text id="user-detail-intro" >I'm a passionate Full Stack Web Developer with expertise in HTML, CSS, JavaScript, React, Redux, MongoDB, and a strong grasp of data structures and algorithms. I take pride in crafting dynamic web applications that blend creativity with technical excellence. As a collaborative team player, I thrive on challenges and am committed to turning innovative ideas into reality. Let's create something extraordinary together.</Text>
             <Flex>
-              <Text fontWeight={700} color={'gray'} >Some of my other interests
+              {/* <Text fontWeight={700} color={'gray'} >Some of my other interests
                 <br />
                 Build Website(Cloning)
                 <br />
-                Gym
+                Cricket
                 <br />
-                Traveling
-              </Text>
+                Making Mathematics
+              </Text> */}
               <Spacer />
               <Button id="resume-button-2" m={'auto'} >
                 <BiDownload
@@ -47,7 +54,7 @@ const About = () => {
                   rel="noreferrer"
                   onClick={handleDownload}
                   href={Resume}
-                  download={"Shiva-Verma-Resume"}
+                  download={"Nitish-Kumar-Resume"}
                 >
                   RESUME
                 </Link>
@@ -57,7 +64,7 @@ const About = () => {
         </Box>
       </Box>
       <Box m={'auto'} maxW={['100%', '100%', '25%']} >
-        <img className="home-img" src={ShivaPic} />
+        <img className="home-img" width={200} src={NitishPic} style={{ borderRadius: '50%' }}/>
       </Box>
     </Flex>
   )

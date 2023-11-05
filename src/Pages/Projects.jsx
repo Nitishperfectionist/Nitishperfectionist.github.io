@@ -1,9 +1,9 @@
 import { Box, Button, Flex, Grid, GridItem, Image, Link, Spacer, Text } from '@chakra-ui/react'
 import React from 'react'
-import Pharamacy from "../Essentials/pharmacy.png"
-import Alcazar from "../Essentials/Alcazar.png"
-import Adventure from "../Essentials/Adventure.png"
-import DownlordHub from "../Essentials/downlordhub.png"
+import Honeybee from "../Essentials/Honeybeeimage.png"
+import Bewakoof  from "../Essentials/Bewakoofimage.png"
+import Specialized from "../Essentials/Specialized.png"
+import Travelious from "../Essentials/Traveliousimage.png"
 import { AiFillGithub } from 'react-icons/ai';
 import { AiOutlineApi } from 'react-icons/ai';
 import { RiNavigationLine } from 'react-icons/ri';
@@ -12,37 +12,34 @@ import SkilTags from './SkilTags'
 const Projects = () => {
   const projects = [
     {
-      img: DownlordHub,
-      githubLink: "https://github.com/shivaverma1115/DownloadHubFrontened",
-      live: "https://create-react-app-seven-teal-51.vercel.app/",
-      title: "DownlordHub",
-      desc: "DownloadHub based on MERN stack web application that allows users to browse, search, and download movies in high quality. It has an extensive library of movies to choose from, including new releases, classic films, and foreign films. DownloadHub is easy to use and navigate, and it offers a variety of features to help users find the perfect movie .",
+      img: Travelious,
+      githubLink: "https://github.com/arjundangi01/Travelious",
+      live: "https://travelious-project.netlify.app/",
+      title: "Travelious",
+      desc: "Travelious, a collaborative effort by a team of five, resulted in an intuitive online travel booking platform. With a tech stack encompassing React, Redux, Chakra UI, JavaScript, Bootstrap, and API integration, we focused on responsive design and user-specific features. This project sharpened our front-end development skills and showcased effective teamwork, all achieved in just five days..",
       tags: [
         { title: "HTML" },
         { title: "CSS" },
         { title: "JS" },
         { title: "React.js" },
-        { title: "Express.js" },
-        { title: "Node.js" },
-        { title: "MongoDB" },
+        { title: "Routing" },
+        { title: "Api" },
+        { title: "Bootstrap" },
         { title: "ChakraUI" },
         { title: "GitHub" },
       ],
-      api: "https://downlordhubmongodb-production.up.railway.app/movies",
+      api: "",
     },
     {
-      img: Adventure,
-      githubLink: "https://github.com/monurajputrko/Adventour",
-      live: "https://adventour-e3im-git-booking-monurajputrko.vercel.app/",
-      title: "ADEVENTURE",
-      desc: "Adventour is a MERN stack Adventure booking and hotel reservation application. Offering a booking platform for hotel rooms and exploring details about various hotels in various locations. Along with many options for adventures available in area.This is a modern and user-friendly travel app built with React, designed to help users plan and organize their travel adventures with ease.",
+      img: Specialized,
+      githubLink: "https://github.com/Nitishperfectionist/onlinecycleapp",
+      live: "https://sprightly-phoenix-7d7782.netlify.app/",
+      title: "Specialized Cycle Shop",
+      desc: "As part of a 5-member team, we developed an online platform for purchasing bicycles. Our primary focus was on creating a user-friendly website with responsive design, filtering, sorting, and robust authentication. This experience honed our skills as front-end developers and effective team members. I played a key role in ensuring full responsiveness. It was a collaborative project completed within a tight 5-day timeframe.",
       tags: [
         { title: "HTML" },
         { title: "CSS" },
         { title: "JS" },
-        { title: "React.js" },
-        { title: "Node.js" },
-        { title: "Express.js" },
         { title: "ChakraUI" },
         { title: "FireBase" },
         { title: "GitHub" },
@@ -50,31 +47,35 @@ const Projects = () => {
       api:"",
     },
     {
-      img: Pharamacy,
-      githubLink: "https://github.com/kuntalkumar/Unit_4_Project_Pharmeasy",
-      live: "https://6466188149da42083e1781f6--cerulean-basbousa-d1f219.netlify.app/",
-      title: "PHARMEASY WEBSITE",
-      desc: "PharmEasy is a consumer healthcare “super app” that provides consumers with on-demand, home delivered access to a wide range of prescription, OTC pharmaceutical, other consumer healthcare products, comprehensive diagnostic test services, and teleconsultations thereby serving their healthcare needs.",
+      img: Honeybee,
+      githubLink: "https://github.com/akashtijare/honey_bee",
+      live: "https://let-it-bee.vercel.app/",
+      title: "let_it_bee.co ",
+      desc: "let_it_bee.co is an eco-friendly e-commerce platform dedicated to honey sales. This endeavor featured user-friendly registration and authentication for a smooth shopping experience. we also crafted an intuitive login and signup page, further enhancing user accessibility. Additionally, the platform included sorting, filtering, and pagination features, simplifying the search for honey products. This project embodies our commitment to sustainability and user satisfaction.",
       tags: [
         { title: "HTML" },
         { title: "CSS" },
         { title: "JS" },
-        { title: "Local Storage" },
+        { title: "React" },
+        { title: "Redux" },
+        { title: "Ruting" },
+        { title: "vercel" },
+        { title: "Json server" },
         { title: "GitHub" },
       ],
       api:"",
     },
     {
-      img: Alcazar,
-      githubLink: "https://github.com/Dibakardebnath/Alcazar-project",
-      live: "https://neon-marshmallow-b4a4c9.netlify.app/",
-      title: "TRAVEL AGENCY",
-      desc: "Trusted by 80 million Travelers. Aalcazar is the worlds most comprehensive travel, flight and accommodation provider. very easy to access on your smarttree and desktop.",
+      img: Bewakoof,
+      githubLink: "https://github.com/ManojSharma1122/Bewakoof",
+      live: "https://relaxed-profiterole-506b95.netlify.app/index.html",
+      title: "Bewakoof Clone",
+      desc: "Collaborated with a team of five to develop an e-commerce website mirroring 'Bewakoof.com,' focusing on responsive design, filtering, sorting, and user-specific features. Responsibilities included responsive design and payment methods..",
       tags: [
         { title: "HTML" },
         { title: "CSS" },
         { title: "JS" },
-        { title: "API" },
+        { title: "Json server" },
         { title: "Local Storage" },
         { title: "GitHub" },
       ],
@@ -86,7 +87,7 @@ const Projects = () => {
       <Box id="projects" w={'80%'} m={'auto'} mt={[10, 10, 2]}>
         <Box w={'fit-content'} m={'auto'} >
           <Text fontSize={30} fontWeight={600} pt={'15vh'}>My Projects</Text>
-          <Text fontWeight={800} color={'gray'}>with 5 team mates</Text>
+          <Text fontWeight={800} color={'gray'}></Text>
         </Box>
         <Grid fontSize={20} templateColumns={['repeat(1, 1fr)', 'repeat(1, 1fr)', 'repeat(2, 1fr)']} gap={0} w={'fit-content'} m={'auto'}>
           {
@@ -122,7 +123,7 @@ const Projects = () => {
                       ele.api != "" ? (
                         <Box m={'auto'} w={'fit-content'} >
                           < Button my={1} mx={1} className="project-github-link" style={{ boxShadow: 'rgba(0, 0, 0, 0.35) 0px 5px 15px', }} _hover={{ cursor: 'pointer' }} leftIcon={<AiOutlineApi />} colorScheme='linkedin' variant='solid'>
-                            <Link target='_blank' href={ele.api} >API Link</Link>
+                            <Link target='_blank' href={ele.api} ></Link>
                           </Button>
                           <Spacer />
                         </Box>

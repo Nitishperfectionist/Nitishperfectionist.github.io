@@ -8,12 +8,12 @@ const TypeWriterReact = () => {
       }
   return (
     <Box  w={'100%'} >
-      <Text fontSize={['20px','40px','50px']} m={'auto'} fontWeight={700} textAlign={'center'} >
+      <Text fontSize={['20px','30px','40px']} m={'auto'} fontWeight={700} textAlign={'center'} >
         Hello , I am {' '} <br/>
         <span style={{ color: 'red', fontWeight: 'bold' }}>
           {/* Style will be inherited from the parent element */}
           <Typewriter
-            words={['Full Stack Web', 'MERN Stack','Masai Student']}
+            words={['Full Stack Web', 'MERN Stack','Indian']}
             loop={'infinite'}
             cursor
             cursorStyle='</>'

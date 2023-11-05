@@ -14,7 +14,7 @@ const Contacts = () => {
       </Box>
       <Box >
         <Box m={'auto'} w={['90%', '80%', '50%']} >
-          <form action='https://formspree.io/f/xaygoyka' method='POST' >
+          <form action='https://formspree.io/f/xnqkrban' method='POST' >
             <Input outline={'2px solid gray'} my={5} type={'text'} name='username' placeholder="username" required />
             <Input outline={'2px solid gray'} my={5} type={'email'} name='Email' placeholder="Email" required />
             <Textarea outline={'2px solid gray'} my={5} name='message' placeholder='Send message' cols={30} rows={6} required />
@@ -28,38 +28,38 @@ const Contacts = () => {
         </Box>
         <Flex maxW={'70%'} m={'auto'} display={['block','block','flex']} >
           <Box id="contact-github" fontSize={30} w={'fit-content'} m={'auto'}p={5} >
-            <Link target='_blank' href='https://github.com/shivaverma1115' >
+            <Link target='_blank' href='https://github.com/Nitishperfectionist' >
               <Box textAlign={'center'}>
                 <Box w={'fit-content'} m={'auto'}><AiFillGithub /></Box>
                 <Text fontSize={20} fontWeight={700} >GitHub</Text>
-                <Text fontSize={15} textAlign={'center'}>Shiva_Verma</Text>
+                <Text fontSize={15} textAlign={'center'}>Nitish Kumar</Text>
               </Box>
               </Link>
           </Box>
           <Box id="contact-linkedin" fontSize={30} w={'fit-content'} m={'auto'} p={5}>
-            <Link target='_blank' href='https://www.linkedin.com/in/developer-shiva-7a8450248/' >
+            <Link target='_blank' href='https://www.linkedin.com/in/nitish-kumar-118041219/' >
               <Box textAlign={'center'}>
                 <Box w={'fit-content'} m={'auto'}><AiOutlineLinkedin /></Box>
                 <Text fontSize={20} fontWeight={700} >LinkedIn</Text>
-                <Text fontSize={15} textAlign={'center'}>Developer Shiva</Text>
+                <Text fontSize={15} textAlign={'center'}>Nitish Kumar</Text>
               </Box>
             </Link>
           </Box>
           <Box id="contact-phone" fontSize={30} w={'fit-content'} m={'auto'}p={5} >
-            <Link target='_blank' href='tel:+91 8004716907' rel='noreferrer'>
+            <Link target='_blank' href='tel:+91 6204620324' rel='noreferrer'>
               <Box textAlign={'center'}>
                 <Box w={'fit-content'} m={'auto'}><AiTwotonePhone /></Box>
                 <Text fontSize={20} fontWeight={700} >Phone</Text>
-                <Text fontSize={15} textAlign={'center'}>+91 8004716907</Text>
+                <Text fontSize={15} textAlign={'center'}>+91 6204620324</Text>
               </Box>
             </Link>
           </Box>
           <Box id="contact-email" fontSize={30} w={'fit-content'} m={'auto'}p={5} >
-            <Link target='_blank' href='mailto:shivaverma1115@gmail.com' rel='noreferrer' >
+            <Link target='_blank' href='mailto:nitishkumar2809@gmail.com' rel='noreferrer' >
               <Box textAlign={'center'}>
                 <Box w={'fit-content'} m={'auto'}><AiOutlineMail /></Box>
                 <Text fontSize={20} fontWeight={700} >Email</Text>
-                <Text fontSize={15} textAlign={'center'}>shivaverma1115@gmail.com</Text>
+                <Text fontSize={15} textAlign={'center'}>nitishkumar2809@gmail.com</Text>
               </Box>
             </Link>
           </Box>

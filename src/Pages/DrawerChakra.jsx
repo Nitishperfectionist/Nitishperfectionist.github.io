@@ -12,7 +12,7 @@ import {
     theme,
     Link as ResumeLink ,
 } from '@chakra-ui/react'
-import Resume from "../Essentials/Shiva-Verma-Resume.pdf"
+import Resume from "../Essentials/Nitish-Kumar-Resume.pdf"
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { Link } from "react-scroll";
 import { ColorModeSwitcher } from '../ColorModeSwitcher';
