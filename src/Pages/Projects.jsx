@@ -120,7 +120,7 @@ const Projects = () => {
                     </Button>
                   </Flex>
                     {
-                      ele.api != "" ? (
+                      ele.api !== "" ? (
                         <Box m={'auto'} w={'fit-content'} >
                           < Button my={1} mx={1} className="project-github-link" style={{ boxShadow: 'rgba(0, 0, 0, 0.35) 0px 5px 15px', }} _hover={{ cursor: 'pointer' }} leftIcon={<AiOutlineApi />} colorScheme='linkedin' variant='solid'>
                             <Link target='_blank' href={ele.api} ></Link>

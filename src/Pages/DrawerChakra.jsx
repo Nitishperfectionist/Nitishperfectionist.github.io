@@ -29,7 +29,7 @@ const DrawerChakra = ({ links }) => {
                 <DrawerOverlay />
                 <DrawerContent textAlign={'center'}>
                     <DrawerHeader borderBottomWidth='1px' fontSize={30} fontWeight={800}  >
-                        Shiva Verma
+                        Nitish Kumar
                     </DrawerHeader>
                     <DrawerBody fontSize={20} w={'fit-content'} m={'auto'} >
                         {links.map((ele, i) => {
@@ -40,7 +40,7 @@ const DrawerChakra = ({ links }) => {
                             )
                         })}
                         <Button colorScheme='blue' leftIcon={<BiDownload />} ml={5} target='_blank'>
-                            <ResumeLink style={{ marginLeft: "10px" }} href={Resume} target='_blank' download={"Shiva_Verma_Resume.pdf"} >
+                            <ResumeLink style={{ marginLeft: "10px" }} href={Resume} target='_blank' download={"Nitish-kumar-Resume.pdf"} >
                                 RESUME
                             </ResumeLink>
                         </Button>
