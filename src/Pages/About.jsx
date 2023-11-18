@@ -7,7 +7,7 @@ import { BiDownload } from 'react-icons/bi';
 
 const About = () => {
   const handleDownload = () => {
-    window.open(Resume, '_blank');
+    window.open('https://drive.google.com/file/d/17Jc7CHswy0og9uOVzqf1Un7HdSHmaLmi/view?usp=sharing', '_blank');
     toast({
       title: "Resume-downloading",
       status: 'success',
