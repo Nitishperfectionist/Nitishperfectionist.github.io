@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.js": "/static/js/main.1b6a970c.js",
+    "static/media/Bewakoofimage.png": "/static/media/Bewakoofimage.d0e796c7558437c91f21.png",
+    "static/media/Specialized.png": "/static/media/Specialized.e436410a5cfae3dbeacc.png",
+    "static/media/Traveliousimage.png": "/static/media/Traveliousimage.af3f3a2dd632cd58c165.png",
+    "static/media/Honeybeeimage.png": "/static/media/Honeybeeimage.aac7243726668072850e.png",
+    "static/media/Nitish-Kumar-Resume.pdf": "/static/media/Nitish-Kumar-Resume.c90f4c241b3f802020f6.pdf",
+    "static/media/NitishPic.jpg": "/static/media/NitishPic.111a1516f47656c8ff8d.jpg",
+    "static/media/vscode.svg": "/static/media/vscode.c41e81d3363b36f13c61f5092edca24d.svg",
+    "index.html": "/index.html",
+    "main.1b6a970c.js.map": "/static/js/main.1b6a970c.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.1b6a970c.js"
+  ]
+}
